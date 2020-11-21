@@ -21,6 +21,10 @@ public class PhoneInfo {
 		System.out.println("OS Name: MAC");
 
 	}
+	public void dispayPhone() {
+		System.out.println("Display Phone");
+
+	}
 	public static void main(String[] args) {
 		PhoneInfo ph=new PhoneInfo();
 		ph.phoneName();
